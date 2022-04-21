@@ -1,0 +1,154 @@
+*{
+    margin: auto;
+}
+nav{
+
+  background: #22c3a3;
+  height: 74px;
+  line-height: 74px;
+}
+nav span{color: white;float: left;margin-left: 60px;font-size: 30px;}
+nav ul{text-align: right;margin-right: 55px;line-height: 55px;}
+nav ul li{display: inline-block;padding: 10px 10px;}
+nav ul li a{color: white;text-decoration: none;}
+
+
+
+
+/* banner-section */
+.banner-section{
+    background-image: url(./header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    background-position-y: -100px;
+    height: 112px;
+}
+.banner-section .banner-container{text-align: center;color: honeydew;line-height: 70px;}
+.banner-section .banner-container b{font-size: 60px;}
+.banner-section .banner-container p{font-size: 23px;}
+.banner-section .banner-container a{color: white;text-decoration: none;font-size: 18px;border: 3px solid;padding: 10px 25px;border-radius: 5px;}
+/* banner-section-end */
+
+
+
+
+/* service section start */
+.service-section{
+    
+}
+
+
+/* our service section start */
+.service-section .our-service{
+
+    padding: 50px 0px;
+    text-align: center;
+    line-height: 50px;
+}
+.service-section .our-service b{
+
+    font-size: 30px;
+}
+.service-section .our-service p{
+
+    font-size: 20px;
+}
+/* our service section end */
+
+
+
+/* service item start */
+.service-item{
+    
+    padding-bottom: 250px;
+}
+.service-item1{
+    
+    text-align: center;
+    width: 15%;
+    float: left;
+    padding: 0 75px;
+}
+.service-item1 span{
+
+    color: #0abe9a;
+    font-size: 40px;
+}
+.service-item1 b{
+
+    display: block;
+    font-size: 20px;
+}
+.service-item1 p{
+
+}
+/* service item end */
+/* service section end */
+
+
+/* horizontal-row */
+hr{
+    background: #0dbf9b;
+    padding-bottom: 3px;
+}
+/* horizontal-row-end */
+
+/* about section start */
+.banner-about-section{padding: 0px 5%;margin: 50px;clear: both; }
+.about-section{ }
+.about-section .about-us{text-align: center;margin-top: 100px;line-height: 50px;}
+.about-section .about-us strong{font-size: 35px;}
+.about-section .about-us p{font-size: 15px;}
+.banner-section{}
+.banner-image{float: left;width: 35%;}
+.banner-image img{width: 478px;}
+
+
+
+/* banner-content */
+.banner-content{
+
+    float: right;
+    width: 51%;
+}
+.banner-content .banner-content1{margin-top: 20px;}
+.banner-content .banner-content1 .p{font-size: 25px;}
+.banner-content .banner-content1 p{}
+/* banner-content end */
+
+
+/* imformation */
+.imformation{clear: both;margin-top: 50px;padding: 100px;line-height: 50px;background: #f6f6f6;}
+.imformation .container{}
+.imformation .container .contact-us{
+    text-align: center;
+}
+.imformation .container .contact-us h2{font-size: 30px;}
+.imformation .container .contact-us p{font-size: 20px;}
+
+
+.contact-info{margin-top: 50px;padding-bottom: 50px;}
+.contact-info .mail{float: left;text-align: center;padding: 0 50px;}
+.contact-info .mail span{float: left;text-align: center;padding: 0 225px;color: #0dbf9b;font-size: 30px;}
+.contact-info .phone{float: left;text-align: center;padding: 0px 50px;}
+.contact-info .phone span{float: left;text-align: center;padding: 0 94px;color: #0dbf9b;font-size: 30px;}
+.contact-info .location{float: left;text-align: center;padding: 0 106px;}
+.contact-info .location span{}
+.contact-info .location span i{color: #0dbf9b;font-size: 30px;}
+.contact-info .location p{line-height: 2;}
+.contact-info .phone p{line-height: 2;}
+
+
+/* footer */
+footer{
+    background-color: #0dbf9b;
+    padding: 30px 0;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+}
+footer span{
+    padding:0 10px;
+}
